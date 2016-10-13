@@ -316,7 +316,7 @@ static GLboolean _glewSearchExtension (const char* name, const GLubyte *start, c
   return GL_FALSE;
 }
 
-#if !defined(_WIN32) || !defined(GLEW_MX)
+#if !defined(GLEW_MX)
 
 PFNGLCOPYTEXSUBIMAGE3DPROC __glewCopyTexSubImage3D = NULL;
 PFNGLDRAWRANGEELEMENTSPROC __glewDrawRangeElements = NULL;
