@@ -28,7 +28,7 @@ configure_file(GLEWConfig.cmake.in "${PROJECT_BINARY_DIR}/GLEWConfig.cmake" @ONL
 
 install(
     FILES "${PROJECT_BINARY_DIR}/GlewConfig.cmake"
-    DESTINATION "${CMAKE_INSTALL_PREFIX}")
+    DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GLEW")
 
 install(
     TARGETS GLEW
