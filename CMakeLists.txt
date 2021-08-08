@@ -4,7 +4,7 @@ project(GLEW LANGUAGES C)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 set(GLEW_PUBLIC_HEADERS
-    include/GL/eglew.h include/GL/glew.h include/GL/glxew.h include GL/wglew.h)
+    include/GL/eglew.h include/GL/glew.h include/GL/glxew.h include/GL/wglew.h)
  
 add_library(GLEW STATIC ${GLEW_PUBLIC_HEADERS}
     src/glew.c)
