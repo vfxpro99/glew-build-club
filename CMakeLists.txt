@@ -24,7 +24,7 @@ set_target_properties(
 
 add_library(GLEW::glew ALIAS GLEW)
 
-configure_file(GLEW.cmake.in "${PROJECT_BINARY_DIR}/GLEWConfig.cmake" @ONLY)
+configure_file(GLEWConfig.cmake.in "${PROJECT_BINARY_DIR}/GLEWConfig.cmake" @ONLY)
 
 install(
     FILES "${PROJECT_BINARY_DIR}/GlewConfig.cmake"
